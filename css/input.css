@@ -28,13 +28,9 @@
 **************************/
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   @apply bg-cover bg-no-repeat bg-right-top;
   background-image: url('../img/bg-desktop.webp');
-}
-
-.font-bebas {
-  font-family: "Bebas Neue", sans-serif;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -48,22 +44,19 @@ body {
 }
 
 .main-button {
-  font-family: "Bebas Neue", sans-serif;
   background: linear-gradient(90deg, #00A706 0%, #108014 50%, #00A706 100%);
-  @apply flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[30px] 800px:text-[40px] 1100px:text-[48px] cursor-pointer;
+  @apply font-bold flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
 }
 
 .tg-button {
-  font-family: 'Bebas Neue', sans-serif;
   background: radial-gradient(50% 50% at 50% 50%, #1E8AB5 0%, #007AAB 100%);
-  @apply flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[30px] 800px:text-[40px] 1100px:text-[48px] cursor-pointer;
+  @apply font-bold flex items-center justify-center relative overflow-hidden rounded-full uppercase h-[70px] 800px:h-[90px] 1200px:h-[100px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
 }
 
 .submit-button {
-  font-family: 'Bebas Neue', sans-serif;
   cursor: pointer;
   background: linear-gradient(90deg, #00A706 0%, #108014 50%, #00A706 100%);
-  @apply relative w-full overflow-hidden rounded-full uppercase h-[60px] 800px:h-[70px] 1200px:h-[70px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
+  @apply font-bold relative w-full overflow-hidden rounded-full uppercase h-[60px] 800px:h-[70px] 1200px:h-[70px] text-[#fff] text-[28px] 800px:text-[32px] 1100px:text-[36px] cursor-pointer;
 }
 
 .main-button::before, .submit-button::before, .tg-button::before {
